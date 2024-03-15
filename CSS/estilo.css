@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #d7fddf;
+  border-bottom: none;
+  font-family: 'Catamaran', sans-serif; }
+
+.container {
+  margin: auto;
+  width: 90vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "header" "main" "footer"; }
+
+.header {
+  background: linear-gradient(to bottom, #6daf7b 12%, #9bfab0 32%, #d7fddf 100%);
+  padding: 1.2rem;
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "nombre" "menu2"; }
+  .header .nombre {
+    grid-area: nombre; }
+    .header .nombre .nombre1 {
+      color: black;
+      font-size: 2rem;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      font-family: 'Handlee'; }
+  .header .menu5 {
+    transition: all 2s; }
+    .header .menu5:hover {
+      transform: scale(1.2, 1.2); }
+
+main {
+  margin: auto;
+  background-color: #d7fddf;
+  padding: 1.2rem; }
+  main .titulo1 {
+    grid-area: titulo1; }
+  main .let {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px; }
+  main .imagen1 {
+    grid-area: imagen1; }
+  main .img1 {
+    width: 500px; }
+  main .prueba {
+    grid-area: prueba;
+    padding: 10px;
+    text-align: center; }
+  main .colorboton {
+    background-color: #6daf7b; }
+  main .link {
+    text-decoration: none; }
+  main .solicita {
+    font-size: 1.5rem;
+    color: black; }
+    main .solicita:hover {
+      transform: scale(1.2, 1.2); }
+  main .quiensoy {
+    grid-area: quiensoy; }
+  main .t4 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold; }
+  main .imagen2 {
+    grid-area: imagen2; }
+  main .imga2 {
+    width: 400px; }
+  main .parrafo1 {
+    grid-area: parrafo1; }
+  main .p1 {
+    padding: 20px;
+    line-height: 2; }
+  main .p2 {
+    padding: 20px;
+    line-height: 2; }
+  main .t1 {
+    text-align: right; }
+  main .profesor {
+    grid-area: profesor; }
+  main .s1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold; }
+  main .imagen3 {
+    grid-area: imagen3; }
+  main .img3 {
+    width: 200px; }
+  main .parrafo2 {
+    grid-area: parrafo2; }
+  main .p3 {
+    padding: 20px;
+    line-height: 2; }
+  main .clasesx {
+    padding: 20px;
+    margin: auto; }
+  main .imagenclick {
+    padding: 20px; }
+  main .nivelclick {
+    padding: 20px;
+    margin: auto; }
+  main .t5 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold; }
+  main .gramatica {
+    grid-area: gramatica; }
+  main .img4:hover {
+    transform: scale(1.2, 1.2); }
+  main .img4 {
+    width: 350px; }
+  main .conversacion {
+    grid-area: conversacion; }
+  main .img5 {
+    width: 350px; }
+  main .img5:hover {
+    transform: scale(1.2, 1.2); }
+  main .imagen6 {
+    grid-area: imagen6; }
+  main .img6 {
+    width: 200px; }
+  main .nivel {
+    grid-area: nivel; }
+  main .s2 {
+    text-align: center;
+    font-size: 1.5rem; }
+  main .link a {
+    text-decoration: none; }
+  main .ss {
+    text-align: center;
+    font-size: 1.5rem;
+    text-emphasis-color: white;
+    color: black; }
+  main .ss:hover {
+    transform: scale(1.2, 1.2); }
+  main .colorboton2 {
+    background-color: white; }
+
+.footer {
+  padding: 30px;
+  background: linear-gradient(#d7fddf, #9bfab0, #6daf7b);
+  display: flex;
+  justify-content: space-between;
+  grid-area: footer;
+  text-align: center; }
+  .footer .logo2 {
+    grid-area: logo2; }
+  .footer .contactame {
+    grid-area: Contactame; }
+  .footer .logo2 {
+    width: 200px;
+    align-self: start;
+    padding: 10px; }
+  .footer .contactame {
+    align-self: self-end;
+    padding: 10px; }
+    .footer .contactame a {
+      text-decoration: none; }
+  .footer .s4 {
+    text-align: center;
+    font-size: 2rem;
+    color: black; }
+  .footer .formulario {
+    margin: auto;
+    padding: 20px; }
+  .footer .cierre {
+    grid-area: cierre; }
+  .footer .cierre {
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px; }
+
+/*# sourceMappingURL=estilo.css.map */
